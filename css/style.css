@@ -1,0 +1,161 @@
+.card{
+  border: solid 1px;
+  border-color: black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 178px;
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  /* text-orientation: upright; すべて縦方向に表示 */
+  width: 116px;
+  /* writing-mode: vertical-rl; */
+}
+.spades-card{
+  color: black;
+  }
+.club-card{
+  color: black;
+}
+.diam-card{
+  color: #ff0505;
+}
+.heart-card{
+  color: #ff0505;
+}
+.others-card{
+  color: black;
+}
+
+.left-number ,.left-number-10{
+  font-family: "MS Mincho";
+  font-size: 22px;
+  font-weight: bold;
+  top: 8px;
+  position: absolute;
+}
+.left-number{
+  left: 4px;
+  }
+.left-number-10{
+  left: 2px;
+  letter-spacing: -2px;
+  transform: scaleX(0.8);
+}
+.left-symbol{
+  font-size: 16px;
+  left: 3px;
+  position: absolute;
+  top: 30px;
+}
+.right-number ,.right-number-10{
+  bottom: 8px;
+  font-family: "MS Mincho";
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  transform: rotateZ(180deg);
+}
+.right-number{
+  right: 4px;
+}
+.right-number-10{
+  transform: rotateZ(180deg) scaleX(0.8);
+  right: 2px;
+}
+.right-symbol{
+  bottom: 30px;
+  font-size: 16px;
+  position: absolute;
+  right: 4px;
+  transform: rotateX(180deg);
+}
+.f-container-center ,.f-container-left ,.f-container-right {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 146px;
+  justify-content: space-between;
+  position: absolute;
+  top: 16px;
+  width: 43.5px;
+}
+.f-container-center{
+  left: 35.25px;
+}
+.f-container-left{
+  left: 13.5px;
+}
+.f-container-right{
+  right: 13.5px;
+}
+.symbol ,.symbol-reverse{
+  font-size: 36px;
+}
+.symbol-reverse{
+  transform: rotateZ(180deg);
+}
+.picture{
+  background-size: 76px 140px;
+  left:18px;
+  height: 140px;
+  position: absolute;
+  top: 18px;
+  width: 76px;
+}
+.spade-ace{
+  background-size: 76px 98px;
+  background-image: url("../img/spadeAce.jpg");
+  height: 98px;
+  top: 40px;
+}
+.spade-jack{
+  background-image: url("../img/spadeJack.jpg");
+}
+.spade-queen{
+  background-image: url("../img/spadeQueen.jpg");
+}
+.spade-king{
+  background-image: url("../img/spadeKing.jpg");
+}
+.club-jack{
+  background-image: url("../img/clubJack.jpg");
+}
+.club-queen{
+  background-image: url("../img/clubQueen.jpg");
+}
+.club-king{
+  background-image: url("../img/clubKing.jpg");
+}
+.diam-jack{
+  background-image: url("../img/diamJack.jpg");
+}
+.diam-queen{
+  background-image: url("../img/diamQueen.jpg");
+}
+.diam-king{
+  background-image: url("../img/diamKing.jpg");
+}
+.heart-jack{
+  background-image: url("../img/heartJack.jpg");
+}
+.heart-queen{
+  background-image: url("../img/heartQueen.jpg");
+}
+.heart-king{
+  background-image: url("../img/heartKing.jpg");
+}
+.joker{
+  background-image: url("../img/joker.JPG");
+  background-size: 80px 118px;
+  height: 118px;
+  top: 28px;
+}
+.reverse{
+  background-image: url("../img/reverse.JPG");
+  background-size: 98px 162px;
+  height: 162px;
+  left: 8px;
+  top: 8px;
+  width: 98px;
+}
