@@ -38,7 +38,7 @@
   left: 4px;
   }
 .left-number-10{
-  left: 2px;
+  left: 1px;
   letter-spacing: -2px;
   transform: scaleX(0.8);
 }
@@ -61,7 +61,8 @@
 }
 .right-number-10{
   transform: rotateZ(180deg) scaleX(0.8);
-  right: 2px;
+  letter-spacing: -2px;
+  right: 0px;
 }
 .right-symbol{
   bottom: 30px;
