@@ -159,3 +159,27 @@
   top: 8px;
   width: 98px;
 }
+
+.card-area{
+  height: 724px;
+  overflow: auto;
+}
+
+.deck-area{
+  bottom: 10px;
+
+  position: fixed;
+  left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end  
+}
+
+.deck{
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.explanation{
+  margin-right: 50px;
+}
